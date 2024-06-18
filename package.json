@@ -1,7 +1,7 @@
 {
     "name": "web-automation-tests",
     "version": "1.0.0",
-    "description": "Automation tests for XYZ web application",
+    "description": "Automation tests for Delta Green web application",
     "main": "index.js",
     "scripts": {
       "test": "npm run test:fe && npm run test:be",
