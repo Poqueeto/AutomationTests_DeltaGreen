@@ -43,12 +43,14 @@ This project aims to automate the testing of the Delta Green web application usi
 
 ## Directory Structure
 
-```plaintext
 web-automation-tests/
-├── Tests/
+├── backend/
+│   ├── api.test.js
+├── frontend/
 │   ├── example.test.js
 ├── .gitignore
 ├── package.json
 ├── playwright.config.js
+├── jest.config.js
 ├── README.md
-└── node_modules/ (created after running npm install)
+└── node_modules/ 
