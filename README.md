@@ -37,10 +37,7 @@ This project aims to automate the testing of the Delta Green web application usi
 
 ## Usage
 
-1. **Configure the tests**:
-   - Update the `config/config.js` file with the necessary configuration (e.g., base URL, browser type).
-
-2. **Run the tests**:
+1. **Run the tests**:
 
     ```sh
     npx playwright test
@@ -57,4 +54,3 @@ web-automation-tests/
 │   ├── example.test.js     # Example test case
 ├── config/                 # Configuration files
 │   ├── config.js
-└── resources/              # Additional resources (e.g., test data, screenshots)
