@@ -54,3 +54,4 @@ web-automation-tests/
 │   ├── example.test.js     # Example test case
 ├── config/                 # Configuration files
 │   ├── config.js
+└── resources/              # Additional resources (e.g., test data, screenshots)
