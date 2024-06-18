@@ -8,8 +8,6 @@ A suite of automated tests for the Delta Green web application using Playwright.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
