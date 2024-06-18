@@ -53,4 +53,4 @@ web-automation-tests/
 ├── playwright.config.js
 ├── jest.config.js
 ├── README.md
-└── node_modules/ 
+└── node_modules/
