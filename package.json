@@ -1,15 +1,19 @@
 {
     "name": "web-automation-tests",
     "version": "1.0.0",
-    "description": "Automation tests for for the Delta Green web application.",
+    "description": "Automation tests for XYZ web application",
     "main": "index.js",
     "scripts": {
-      "test": "npx playwright test Tests"
+      "test": "npm run test:fe && npm run test:be",
+      "test:fe": "npx playwright test frontend",
+      "test:be": "npx jest backend"
     },
     "author": "Lucie Pokorna",
     "license": "MIT",
-    "dependencies": {
-      "@playwright/test": "^1.18.0"
+    "devDependencies": {
+      "@playwright/test": "^1.18.0",
+      "jest": "^27.0.0",
+      "supertest": "^6.1.3"
     }
   }
   
