@@ -55,6 +55,3 @@ web-automation-tests/
 ├── package.json            # Node.js dependencies and scripts
 ├── tests/                  # Test cases
 │   ├── example.test.js     # Example test case
-├── config/                 # Configuration files
-│   ├── config.js
-└── resources/              # Additional resources (e.g., test data, screenshots)
