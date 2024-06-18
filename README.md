@@ -43,6 +43,7 @@ This project aims to automate the testing of the Delta Green web application usi
 
 ## Directory Structure
 
+```plaintext
 web-automation-tests/
 ├── backend/
 │   ├── api.test.js
