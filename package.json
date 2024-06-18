@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
       "test": "npm run test:fe && npm run test:be",
-      "test:fe": "npx playwright test frontend",
-      "test:be": "npx jest backend"
+      "test:fe": "npx playwright test Tests/frontend",
+      "test:be": "npx jest Tests/backend"
     },
     "author": "Lucie Pokorna",
     "license": "MIT",
