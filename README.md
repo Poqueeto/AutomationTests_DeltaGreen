@@ -1,5 +1,6 @@
-# AutomationTests_DeltaGreen
-A suite of automated tests for the Delta Green web application using Playwright.
+# Web Automation Tests
+
+This repository contains automation tests for the Delta Green web application using Playwright.
 
 ## Table of Contents
 
@@ -11,7 +12,7 @@ A suite of automated tests for the Delta Green web application using Playwright.
 
 ## Introduction
 
-This project aims to automate the testing of the Delta Green web application using [Playwright](https://playwright.dev/).
+This project aims to automate the testing of the XYZ web application using [Playwright](https://playwright.dev/).
 
 ## Technologies
 
@@ -35,23 +36,29 @@ This project aims to automate the testing of the Delta Green web application usi
 
 ## Usage
 
-1. **Run the tests**:
+1. **Configure the tests**:
+   - Update the `playwright.config.js` file with the necessary configuration (e.g., base URL, browser type).
+
+2. **Run the tests**:
 
     ```sh
-    npx playwright test
+    npm test
     ```
 
 ## Directory Structure
 
 ```plaintext
 web-automation-tests/
-├── backend/
-│   ├── api.test.js
-├── frontend/
-│   ├── example.test.js
+├── node_modules/
+├── test-results
+├── Tests/
+│   ├── backend/
+│       ├── api.test.js
+│   ├── frontend/
+│       ├── example.test.js
 ├── .gitignore
+├── jest.config.js
+├── package-lock.json
 ├── package.json
 ├── playwright.config.js
-├── jest.config.js
-├── README.md
-└── node_modules/
+└──  README.md
