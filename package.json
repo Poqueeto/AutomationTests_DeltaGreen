@@ -4,7 +4,7 @@
     "description": "Automation tests for for the Delta Green web application.",
     "main": "index.js",
     "scripts": {
-      "test": "npx playwright test"
+      "test": "npx playwright test Tests"
     },
     "author": "Lucie Pokorna",
     "license": "MIT",
