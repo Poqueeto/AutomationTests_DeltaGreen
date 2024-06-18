@@ -47,11 +47,10 @@ This project aims to automate the testing of the Delta Green web application usi
 
 ```plaintext
 web-automation-tests/
-├── README.md               # Project overview and instructions
-├── .gitignore              # Files and directories to be ignored by git
-├── package.json            # Node.js dependencies and scripts
-├── tests/                  # Test cases
-│   ├── example.test.js     # Example test case
-├── config/                 # Configuration files
-│   ├── config.js
-└── resources/              # Additional resources (e.g., test data, screenshots)
+├── Tests/
+│   ├── example.test.js
+├── playwright.config.js
+├── package.json
+├── node_modules/
+├── .gitignore
+└── README.md
