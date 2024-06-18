@@ -49,8 +49,8 @@ This project aims to automate the testing of the Delta Green web application usi
 web-automation-tests/
 ├── Tests/
 │   ├── example.test.js
-├── playwright.config.js
-├── package.json
-├── node_modules/
 ├── .gitignore
-└── README.md
+├── package.json
+├── playwright.config.js
+├── README.md
+└── node_modules/ (created after running npm install)
