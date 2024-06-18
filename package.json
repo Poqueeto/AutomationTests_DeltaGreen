@@ -14,5 +14,8 @@
         "@playwright/test": "^1.44.1",
         "jest": "^27.0.0",
         "supertest": "^6.1.3"
+    },
+    "dependencies": {
+        "playwright": "^1.44.1"
     }
 }

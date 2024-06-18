@@ -52,10 +52,10 @@ web-automation-tests/
 ├── node_modules/
 ├── test-results
 ├── Tests/
-│   ├── backend/
-│       ├── api.test.js
-│   ├── frontend/
-│       ├── example.test.js
+│   └── backend/
+│       └── api.test.js
+│   └── frontend/
+│       └── example.test.js
 ├── .gitignore
 ├── jest.config.js
 ├── package-lock.json
