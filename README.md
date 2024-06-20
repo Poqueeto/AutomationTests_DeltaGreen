@@ -12,7 +12,7 @@ This repository contains automation tests for the Delta Green web application us
 
 ## Introduction
 
-This project aims to automate the testing of the XYZ web application using [Playwright](https://playwright.dev/).
+This project aims to automate the testing of the testing web application for task management using [Playwright](https://playwright.dev/).
 
 ## Technologies
 
